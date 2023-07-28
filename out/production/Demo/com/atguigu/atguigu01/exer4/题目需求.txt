@@ -1,0 +1,13 @@
+案例：
+1.按照UML类图，创建Account类，提供必须的构造。
+-在提款方法withdraw()中，需要判断用户余额是否满足提款余额的要求，如果不能给出对应的提示
+-deposit()方法表示取款。
+
+2.按照UML类图，创建Customer类，提供必须的构造。
+
+3.按照UML类图，创建Bank，提供必须的构造。
+-addCustomer 方法必须依照参数(姓，名)构造一个新的Customer类对象，然后必须把它放到customer数组中。
+还必须把numberOfCustomer属性的值加 1.
+-getNumberOfCustomer 返回值number ofCustomer 属性值。
+-getCustomer返回值与给出的index参数相关客户。
+4.创建BankTest，类测试。
