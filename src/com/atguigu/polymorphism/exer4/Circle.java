@@ -4,7 +4,7 @@ package com.atguigu.polymorphism.exer4;
  * @author : Yac
  * @date : 2023/7/28
  */
-public class Circle {
+public class Circle extends Graphic {
     private double radius;  //半径
     public Circle() {
     }
@@ -18,5 +18,9 @@ public class Circle {
 
     public void setRadius(double radius) {
         this.radius = radius;
+    }
+    @Override
+    public double area(){
+        return Math.PI*radius*radius;
     }
 }
