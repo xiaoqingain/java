@@ -44,6 +44,6 @@ public class Rectangle extends Shap{
 
     @Override
     public String detail() {
-        return "长方形的长："+length+"，宽："+","+super.detail();
+        return "长方形的长："+length+"，宽："+","+width+super.detail();
     }
 }
