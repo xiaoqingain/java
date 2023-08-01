@@ -10,6 +10,7 @@ public class ShapTest {
         shaps[0]=new Circle(2.0);
         shaps[1]=new Rectangle(3.0,4.5);
         shaps[2]=new Triangle(3,4,5);
+
         for (int i = 0; i < shaps.length; i++) {
             for (int j=0;j< shaps.length-1;j++){
                 boolean  flag=false;
